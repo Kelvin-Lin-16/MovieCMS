@@ -27,19 +27,19 @@
 # Project Structure
 <hr>
 ### This demo applies MVC methodology.
-![icon](/snapshots/c2.png =348x427)
+![icon](/snapshots/c2.png)
 </br></br></br>
 
 # How to customize
 <hr>
 ### 1. Create your own model
-![icon](/snapshots/c4.png =300x89)
+![icon](/snapshots/c4.png)
 </br>
 ### 2. Create your own view
-![icon](/snapshots/c5.png =307x726)
+![icon](/snapshots/c5.png)
 </br>
 ### 3. Create your own controller
-![icon]/snapshots/c3.png =304x114)
+![icon]/snapshots/c3.png)
 </br></br>
 
 # Licenses
