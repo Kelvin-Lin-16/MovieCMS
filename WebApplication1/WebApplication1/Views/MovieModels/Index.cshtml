@@ -1,0 +1,47 @@
+﻿@model IPagedList<MovieModels>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+
+    <!--Using http get-->
+    <!-- using (Html.BeginForm("Index", "MovieModels", FormMethod.Get)) -->
+
+    <!--Using http post
+    @*using (Html.BeginForm("Search", "MovieModels", FormMethod.Post))*@
+    -->            
+    @using (Ajax.BeginForm(
+            "Search",
+            new AjaxOptions {
+                HttpMethod="POST",
+                InsertionMode=InsertionMode.Replace,
+                UpdateTargetId= "movieList"
+            }))
+    {
+        @Html.AntiForgeryToken()
+        <div class="form-group">           
+            Genre: @Html.DropDownList("movieGenre", "ALL")
+        </div>
+        <div class="form-group">
+            Title:  <input type="text" name="SearchString" data-movies-autocomplete="@Url.Action("AutoComplete")" />
+     
+            <input type="submit" value="Search" class="btn btn-default" />
+        </div>      
+    }
+</p>
+
+@Html.Partial("List",Model)
+
+@section Scripts {
+    @Scripts.Render("~/bundles/unobstrusive")
+    @Scripts.Render("~/bundles/jquery-ui")
+    @Scripts.Render("~/bundles/movie")
+
+}
+
