@@ -21,7 +21,7 @@
 
 # Project Overview
 <hr>
-![icon](http://www.linsapp.com/c1.png =800x480)
+![icon](/snapshots/2016-05-17 11_06_23-.png)
 </br></br></br>
 
 # Project Structure
