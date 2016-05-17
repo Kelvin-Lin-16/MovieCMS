@@ -27,19 +27,19 @@
 # Project Structure
 <hr>
 ### This demo applies MVC methodology.
-![icon](http://www.linsapp.com/c2.png =348x427)
+![icon](/snapshots/2016-05-17 11_07_07-WebApplication1 - Microsoft Visual Studio.png =348x427)
 </br></br></br>
 
 # How to customize
 <hr>
 ### 1. Create your own model
-![icon](http://www.linsapp.com/c4.png =300x89)
+![icon](/snapshots/2016-05-17 11_07_36-WebApplication1 - Microsoft Visual Studio.png =300x89)
 </br>
 ### 2. Create your own view
-![icon](http://www.linsapp.com/c5.png =307x726)
+![icon](/snapshots/2016-05-17 11_08_04-WebApplication1 - Microsoft Visual Studio.png =307x726)
 </br>
 ### 3. Create your own controller
-![icon](http://www.linsapp.com/c4.png =304x114)
+![icon]/snapshots/2016-05-17 11_07_24-WebApplication1 - Microsoft Visual Studio.png =304x114)
 </br></br>
 
 # Licenses
