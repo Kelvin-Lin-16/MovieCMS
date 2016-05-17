@@ -39,7 +39,7 @@
 ![icon](/snapshots/c5.png)
 </br>
 ### 3. Create your own controller
-![icon]/snapshots/c3.png)
+![icon](/snapshots/c3.png)
 </br></br>
 
 # Licenses
